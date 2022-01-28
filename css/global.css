@@ -8,6 +8,7 @@ header {
   overflow: hidden;
   z-index: 999;
   height: 1.25rem;
+  top: 0;
 }
 
 nav {
@@ -56,6 +57,7 @@ nav {
 /*Footer starts here*/
 footer {
   background-color: #fefaf5;
+  padding-top: 1.25rem;
 }
 .footer__card {
   display: flex;
@@ -88,12 +90,27 @@ h1.footer__card-title {
 }
 .ig-icon,
 .ttr-icon {
-  width: 1.875rem;
-  height: 1.875rem;
-  margin-top: 50%;
+  width: 50%;
+  /*height: 1.875rem;*/
+  /*margin-top: 50%;*/
 }
 .fb-icon {
-  height: 1.875rem;
-  width: 1.1rem;
+  /*height: 1.875rem;*/
+  /*width: 1.1rem;*/
+  width: 50%;
+}
+.footer__card-sub-title {
+  font-size: 0.7rem;
+}
+.footer__card-links {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20rem;
+  padding-top: 3rem;
+}
+.footer__card-social {
+  text-align: center;
 }
 /*Footer ends here*/
