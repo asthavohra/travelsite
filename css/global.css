@@ -7,6 +7,7 @@ header {
   text-decoration: none;
   overflow: hidden;
   z-index: 999;
+  height: 1.25rem;
 }
 
 nav {
@@ -32,7 +33,6 @@ nav {
 
 .main-nav__links {
   list-style: none;
-  padding: 2.5rem;
   display: flex;
 }
 .main-nav__links-right {
