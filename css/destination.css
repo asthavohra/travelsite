@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+/*
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+*/
+
+/* Hawaii Background-Image */
+#hawaii {
+  background-image: url("../assets/images/hawaii.jpg");
+}
+
+/* Iceland Background-Image */
+
+#iceland {
+  background-image: url("../assets/images/iceland.jpg");
+}
+/* Greece Background-Image */
+
+#greece {
+  background-image: url("../assets/images/greece.jpg");
+}
+
+/* Main Section */
+
+main {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+/* Destination and Acitivity Section */
+
+.country {
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 7.5rem;
+  padding-left: 3.75rem;
+  letter-spacing: 2px;
+}
+
+.destination {
+  display: flex;
+  height: 25rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.destination__card {
+  background-color: #ffffff;
+  height: 18.75rem;
+  width: 20%;
+  margin-right: 3vw;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.destination__card-day {
+  font-weight: bold;
+  border-bottom: 1px solid #000000;
+  margin: 5px 10px;
+  padding: 5px;
+}
+
+.destination__itinerary {
+  padding: 0;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.destination__itinerary-activity {
+  list-style-type: none;
+  background-color: #fefaf5;
+  margin-bottom: 10px;
+  padding: 10px;
+}

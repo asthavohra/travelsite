@@ -1,0 +1,99 @@
+/*Top navigation bar starts here*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 999;
+}
+
+nav {
+  width: 100%;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+}
+.main-nav {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.main-nav__logo-link {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #335576;
+}
+
+.main-nav__links {
+  list-style: none;
+  padding: 2.5rem;
+  display: flex;
+}
+.main-nav__links-right {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.main-nav__links-item-name {
+  padding: 0.625rem 0.9375rem;
+  color: #335576;
+  text-decoration: none;
+  list-style: none;
+}
+.main-nav_links-current {
+  text-decoration: underline;
+  text-decoration-color: #db7a4e;
+}
+/*Top navigation bar ends here*/
+
+/*Footer starts here*/
+footer {
+  background-color: #fefaf5;
+}
+.footer__card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer__card-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.footer__card-title,
+.footer__card-information {
+  color: #335576;
+}
+.footer__card-sub-title {
+  color: #db7a4e;
+}
+h1.footer__card-title {
+  text-align: center;
+}
+.footer__card-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.ig-icon,
+.ttr-icon {
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-top: 50%;
+}
+.fb-icon {
+  height: 1.875rem;
+  width: 1.1rem;
+}
+/*Footer ends here*/
