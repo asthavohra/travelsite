@@ -1,0 +1,9 @@
+/*contact-us form*/
+.contact-us {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  background-color: #fefaf5;
+  display: flex;
+  padding: 6vw;
+}

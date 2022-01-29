@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-  font-family: Verdana;
-}
 /*Hero Section*/
 .hero {
   margin-top: 3vh;
@@ -42,6 +38,9 @@ button {
   text-align: center;
   cursor: pointer;
   border-radius: 30px;
+}
+.get-started {
+  text-decoration: none;
 }
 /*Destination Card Section*/
 .recommendation {
