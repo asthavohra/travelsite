@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: Verdana;
 }
+/*Hero Section*/
 .hero {
   margin-top: 3vh;
   background-color: #fefaf5;
@@ -42,6 +43,7 @@ button {
   cursor: pointer;
   border-radius: 30px;
 }
+/*Destination Card Section*/
 .recommendation {
   padding: 3%;
 }
@@ -81,5 +83,5 @@ button {
   right: 0.625rem;
 }
 .recommendation__card-destination:hover {
-  transform: scale(1.1); /*added Zoom Hover for cards*/
+  transform: scale(1.1); /*added Zoom Hover for destination cards*/
 }

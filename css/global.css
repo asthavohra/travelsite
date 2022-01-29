@@ -1,4 +1,4 @@
-/*Top navigation bar starts here*/
+/*Top Navigation bar */
 header {
   display: flex;
   align-items: center;
@@ -30,11 +30,13 @@ nav {
   text-decoration: none;
   font-size: 1rem;
   color: #335576;
+  padding-top: 0.5rem;
 }
 
 .main-nav__links {
   list-style: none;
   display: flex;
+  padding-top: 1rem;
 }
 .main-nav__links-right {
   display: flex;
@@ -48,13 +50,14 @@ nav {
   text-decoration: none;
   list-style: none;
 }
+a.main-nav__links-item-name:hover {
+  background-color: #fefaf5; /*highlighted Top Navgigation bar items on Hover */
+}
 .main-nav_links-current {
   text-decoration: underline;
   text-decoration-color: #db7a4e;
 }
-/*Top navigation bar ends here*/
-
-/*Footer starts here*/
+/*Bottom Navigation Bar*/
 footer {
   background-color: #fefaf5;
   padding-top: 1.25rem;
@@ -113,4 +116,3 @@ h1.footer__card-title {
 .footer__card-social {
   text-align: center;
 }
-/*Footer ends here*/

@@ -2,16 +2,6 @@
   box-sizing: border-box;
   font-family: Verdana;
 }
-
-/*
-body {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}
-*/
-
 /* Hawaii Background-Image */
 #hawaii {
   background-image: url("../assets/images/hawaii.jpg");
@@ -69,7 +59,7 @@ main {
 
 .destination__card-day {
   font-weight: bold;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid black;
   margin: 5px 10px;
   padding: 5px;
 }
